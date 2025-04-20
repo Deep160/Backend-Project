@@ -1,5 +1,5 @@
 class ApiResponse {
-  constructor(statusCode, message = "success", data) {
+  constructor(statusCode, data, message = "success") {
     this.statusCode = statusCode; // HTTP status code (e.g., 200, 404, 500)
     this.data = data; // Data to be returned in the response
     this.message = message; // Message describing the response
